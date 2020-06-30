@@ -15,9 +15,14 @@ body {
 
 header {
     display: flex;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 1%;
     justify-content: space-between;
     align-items: baseline;
-    background-color: red;
+    background-color: #B00000;
+    border-radius: 20px;
+    box-shadow: 3px 5px 2px #000000;
 }
 
 .headerMenu ul{
@@ -36,17 +41,24 @@ header {
 /*INTRO SECTION*/
 
 .intro {
-    width: 80%;
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 25%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .intro h1 {
+    font-size: 2em;
     text-align: center;
+    color: white;
+    text-shadow: 2px 5px 0 #000000;
 }
 
 .intro p {
+    font-size: 1.2em;
     text-align: center;
+    color: white;
+    text-shadow: 2px 5px 1px #000000;
 }
 
 /*MAIN SECTION*/
@@ -57,6 +69,24 @@ header {
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5%;
+    background-color: #312D2D;
+    border: 2px solid #B00000;
+    border-radius: 20px;
+    box-shadow: 3px 5px 2px #000000;
+}
+
+.imgRight {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.articleImg{
+    display: flex;
+}
+
+.articleContent {
+    color: white;
+    text-shadow: 2px 5px 4px #000000;
 }
 
 .article2 {
@@ -66,6 +96,15 @@ header {
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5%;
+    background-color: #312D2D;
+    border: 2px solid #B00000;
+    border-radius: 20px;
+    box-shadow: 3px 5px 2px #000000;
+}
+
+.imgLeft {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 /*ASIDE*/
